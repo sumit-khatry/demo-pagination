@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Simple Table Pagination Example</title>
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ <header class="intro">
+ <h1>Simple Table Pagination Example</h1>
+ <p>Simple pagination for HTML table.</p>
+
+ <div class="action">
+ <a href="https://www.codehim.com/vanilla-javascript/simple-table-pagination-javascript/" title="Back to download and tutorial page" class="btn back">Back to Tutorial</a>
+ </div>
+ </header>
+  
+      
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+   <table id="myTable">
+	<thead>
+		<tr>
+			<th>1</th>
+			<th>1</th>
+
+		</tr>
+
+	</thead>
+	<tbody>
+	<tr>
+		<th>Head col 1</th>
+		<th>Head col 2</th>
+	</tr>
+	<tr>
+		<td>CodeHim</td>
+		<td>Free HTML CSS</td>
+	</tr>
+	<tr>
+		<td>JavaScript</td>
+		<td>Code &amp; Scripts</td>
+	</tr>
+	<tr>
+		<td>row #3 col1</td>
+		<td>row #3 col2</td>
+	</tr>
+	<tr>
+		<td>row #4 col1</td>
+		<td>row #4 col2</td>
+	</tr>
+	<tr>
+		<td>row #5 col1</td>
+		<td>row #5 col2</td>
+	</tr>
+	<tr>
+		<td>row #6 col1</td>
+		<td>row #6 col2</td>
+	</tr>
+	<tr>
+		<td>row #7 col1</td>
+		<td>row #7 col2</td>
+	</tr>
+	<tr>
+		<td>row #8 col1</td>
+		<td>row #8 col2</td>
+	</tr>
+	<tr>
+		<td>row #9 col1</td>
+		<td>row #9 col2</td>
+	</tr>
+	<tr>
+		<td>row #10 col1</td>
+		<td>row #10 col2</td>
+	</tr>
+	<tr>
+		<td>row #11 col1</td>
+		<td>row #11 col2</td>
+	</tr>
+	<tr>
+		<th>Head col 1</th>
+		<th>Head col 2</th>
+	</tr>
+	<tr>
+		<td>CodeHim</td>
+		<td>Free HTML CSS</td>
+	</tr>
+	<tr>
+		<td>JavaScript</td>
+		<td>Code &amp; Scripts</td>
+	</tr>
+	<tr>
+		<td>row #3 col1</td>
+		<td>row #3 col2</td>
+	</tr>
+	<tr>
+		<td>row #4 col1</td>
+		<td>row #4 col2</td>
+	</tr>
+	<tr>
+		<td>row #5 col1</td>
+		<td>row #5 col2</td>
+	</tr>
+	<tr>
+		<td>row #6 col1</td>
+		<td>row #6 col2</td>
+	</tr>
+	<tr>
+		<td>row #7 col1</td>
+		<td>row #7 col2</td>
+	</tr>
+	<tr>
+		<td>row #8 col1</td>
+		<td>row #8 col2</td>
+	</tr>
+	<tr>
+		<td>row #9 col1</td>
+		<td>row #9 col2</td>
+	</tr>
+	<tr>
+		<td>row #10 col1</td>
+		<td>row #10 col2</td>
+	</tr>
+	<tr>
+		<td>row #11 col1</td>
+		<td>row #11 col2</td>
+	</tr>
+	<tr>
+		<th>Head col 1</th>
+		<th>Head col 2</th>
+	</tr>
+	<tr>
+		<td>CodeHim</td>
+		<td>Free HTML CSS</td>
+	</tr>
+	<tr>
+		<td>JavaScript</td>
+		<td>Code &amp; Scripts</td>
+	</tr>
+	<tr>
+		<td>row #3 col1</td>
+		<td>row #3 col2</td>
+	</tr>
+	<tr>
+		<td>row #4 col1</td>
+		<td>row #4 col2</td>
+	</tr>
+	<tr>
+		<td>row #5 col1</td>
+		<td>row #5 col2</td>
+	</tr>
+	<tr>
+		<td>row #6 col1</td>
+		<td>row #6 col2</td>
+	</tr>
+	<tr>
+		<td>row #7 col1</td>
+		<td>row #7 col2</td>
+	</tr>
+	<tr>
+		<td>row #8 col1</td>
+		<td>row #8 col2</td>
+	</tr>
+	<tr>
+		<td>row #9 col1</td>
+		<td>row #9 col2</td>
+	</tr>
+	<tr>
+		<td>row #10 col1</td>
+		<td>row #10 col2</td>
+	</tr>
+	<tr>
+		<td>row #11 col1</td>
+		<td>row #11 col2</td>
+	</tr>
+	<tr>
+		<th>Head col 1</th>
+		<th>Head col 2</th>
+	</tr>
+	<tr>
+		<td>CodeHim</td>
+		<td>Free HTML CSS</td>
+	</tr>
+	<tr>
+		<td>JavaScript</td>
+		<td>Code &amp; Scripts</td>
+	</tr>
+	<tr>
+		<td>row #3 col1</td>
+		<td>row #3 col2</td>
+	</tr>
+	<tr>
+		<td>row #4 col1</td>
+		<td>row #4 col2</td>
+	</tr>
+	<tr>
+		<td>row #5 col1</td>
+		<td>row #5 col2</td>
+	</tr>
+	<tr>
+		<td>row #6 col1</td>
+		<td>row #6 col2</td>
+	</tr>
+	<tr>
+		<td>row #7 col1</td>
+		<td>row #7 col2</td>
+	</tr>
+	<tr>
+		<td>row #8 col1</td>
+		<td>row #8 col2</td>
+	</tr>
+	<tr>
+		<td>row #9 col1</td>
+		<td>row #9 col2</td>
+	</tr>
+	<tr>
+		<td>row #10 col1</td>
+		<td>row #10 col2</td>
+	</tr>
+	<tr>
+		<td>row #11 col1</td>
+		<td>row #11 col2</td>
+	</tr>
+	<tr>
+		<th>Head col 1</th>
+		<th>Head col 2</th>
+	</tr>
+	<tr>
+		<td>CodeHim</td>
+		<td>Free HTML CSS</td>
+	</tr>
+	<tr>
+		<td>JavaScript</td>
+		<td>Code &amp; Scripts</td>
+	</tr>
+	<tr>
+		<td>row #3 col1</td>
+		<td>row #3 col2</td>
+	</tr>
+	<tr>
+		<td>row #4 col1</td>
+		<td>row #4 col2</td>
+	</tr>
+	<tr>
+		<td>row #5 col1</td>
+		<td>row #5 col2</td>
+	</tr>
+	<tr>
+		<td>row #6 col1</td>
+		<td>row #6 col2</td>
+	</tr>
+	<tr>
+		<td>row #7 col1</td>
+		<td>row #7 col2</td>
+	</tr>
+	<tr>
+		<td>row #8 col1</td>
+		<td>row #8 col2</td>
+	</tr>
+	<tr>
+		<td>row #9 col1</td>
+		<td>row #9 col2</td>
+	</tr>
+	<tr>
+		<td>row #10 col1</td>
+		<td>row #10 col2</td>
+	</tr>
+	<tr>
+		<td>row #11 col1</td>
+		<td>row #11 col2</td>
+	</tr>
+</tbody>
+</table>  
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+      
+  <footer class="credit">Author: Omar Bastony - Distributed By: <a title="Awesome web design code & scripts" href="https://www.codehim.com?source=demo-page" target="_blank">CodeHim</a></footer>
+  
+<!-- Script JS --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
+<script  src="./js/script.js"></script><script  src="./js/script.js"></script>
+   
+  </body>
+</html>

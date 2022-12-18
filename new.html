@@ -1,0 +1,294 @@
+<table class="table table-bordered table-hover table-striped table-responsive" id="MenuSetup" style="width:100%">
+    <thead >
+        <tr style="background-color:#1e88e5;color:White">
+            <th style="width:10%" hidden="hidden">Id</th>
+            <th style="width:10%">SN</th>
+            <th style="width:20%">Menu Name</th>
+            <th style="width:20%">Parent Name</th>
+            <th style="width:10%">Menu Icon</th>
+            <th style="width:20%">Url</th>
+            <th style="width:20%">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+                <tr>
+                    <td hidden="hidden">1</td>
+                    <td>1</td>
+                    <td>Auth</td>
+                    <td></td>
+                    <td>fa-regular fa-user</td>
+                    <td></td>
+                    <td>
+                            <button id="Edit" onclick="Edit(1)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(1)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">2</td>
+                    <td>2</td>
+                    <td>User Setup</td>
+                    <td>Auth</td>
+                    <td>fa-solid fa-user-plus</td>
+                    <td>Auth/User/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(2)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(2)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">3</td>
+                    <td>3</td>
+                    <td>Menu Setup</td>
+                    <td>Auth</td>
+                    <td>fa-solid fa-list</td>
+                    <td>Auth/Menu/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(3)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(3)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">4</td>
+                    <td>4</td>
+                    <td>Role Setup</td>
+                    <td>Auth</td>
+                    <td>fa-solid fa-unlock</td>
+                    <td>Auth/Role/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(4)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(4)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">5</td>
+                    <td>5</td>
+                    <td>User Role</td>
+                    <td>Auth</td>
+                    <td>fa-solid fa-user-lock</td>
+                    <td>Auth/UserRole/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(5)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(5)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">6</td>
+                    <td>6</td>
+                    <td>Menu Role</td>
+                    <td>Auth</td>
+                    <td></td>
+                    <td>Auth/MenuRole/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(6)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(6)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">7</td>
+                    <td>7</td>
+                    <td>Permission Role</td>
+                    <td>Auth</td>
+                    <td>fa-solid fa-lock-hashtag</td>
+                    <td>Auth/PermissionRole/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(7)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(7)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">8</td>
+                    <td>8</td>
+                    <td>Master Setup</td>
+                    <td></td>
+                    <td>fa-solid fa-wrench</td>
+                    <td></td>
+                    <td>
+                            <button id="Edit" onclick="Edit(8)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(8)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">9</td>
+                    <td>9</td>
+                    <td>Department Setup</td>
+                    <td>Master Setup</td>
+                    <td>fa-solid fa-building</td>
+                    <td>MasterSetup/Department/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(9)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(9)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">10</td>
+                    <td>10</td>
+                    <td>Department Bed Setup</td>
+                    <td>Master Setup</td>
+                    <td>fa-solid fa-bed</td>
+                    <td>MasterSetup/DepartmentBed/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(10)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(10)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">15</td>
+                    <td>11</td>
+                    <td>ReferBy Setup</td>
+                    <td>Master Setup</td>
+                    <td></td>
+                    <td>MasterSetup/ReferBy/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(15)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(15)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">17</td>
+                    <td>12</td>
+                    <td>Patient Relation</td>
+                    <td>Master Setup</td>
+                    <td></td>
+                    <td>MasterSetup/PatientRelation/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(17)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(17)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">18</td>
+                    <td>13</td>
+                    <td>Doctor Register</td>
+                    <td>Master Setup</td>
+                    <td>fa-solid fa-user-doctor</td>
+                    <td>MasterSetup/Doctor/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(18)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(18)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">19</td>
+                    <td>14</td>
+                    <td>Permission Setup</td>
+                    <td>Auth</td>
+                    <td></td>
+                    <td>Auth/Permission/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(19)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(19)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">20</td>
+                    <td>15</td>
+                    <td>Patient Group</td>
+                    <td>Master Setup</td>
+                    <td>fa-solid fa-people-group</td>
+                    <td>MasterSetup/PatientGroup/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(20)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(20)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">21</td>
+                    <td>16</td>
+                    <td>Service Group Setup</td>
+                    <td>Master Setup</td>
+                    <td></td>
+                    <td>MasterSetup/ServiceGroup/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(21)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(21)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">22</td>
+                    <td>17</td>
+                    <td>Patient Group Discount</td>
+                    <td>Master Setup</td>
+                    <td>fa-solid fa-percent</td>
+                    <td>MasterSetup/PatientGroupDiscount/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(22)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(22)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">24</td>
+                    <td>18</td>
+                    <td>PrefixSuffix</td>
+                    <td></td>
+                    <td></td>
+                    <td>MasterSetup/PrefixSuffix/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(24)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(24)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">27</td>
+                    <td>19</td>
+                    <td>Service Cost Setup</td>
+                    <td>Master Setup</td>
+                    <td></td>
+                    <td>MasterSetup/ServiceCost/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(27)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(27)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">29</td>
+                    <td>20</td>
+                    <td>Cost Category Setup</td>
+                    <td>Master Setup</td>
+                    <td></td>
+                    <td>MasterSetup/CostCategory/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(29)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(29)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">30</td>
+                    <td>21</td>
+                    <td>User Menu Setup</td>
+                    <td>Auth</td>
+                    <td></td>
+                    <td>Auth/UserMenu/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(30)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(30)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">31</td>
+                    <td>22</td>
+                    <td>User Permission Setup</td>
+                    <td>Auth</td>
+                    <td></td>
+                    <td>Auth/UserPermission/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(31)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(31)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td hidden="hidden">33</td>
+                    <td>23</td>
+                    <td>Company Setup</td>
+                    <td>Master Setup</td>
+                    <td>fa-solid fa-people-group</td>
+                    <td>MasterSetup/CompanySetup/Index</td>
+                    <td>
+                            <button id="Edit" onclick="Edit(33)" title="Edit" type="button" class="btn btn-secondary"><i class='fa-regular fa-pen-to-square'></i> </button>
+                            <button id="Delete" onclick="Confirm(33)" class="btn btn-danger" title="Delete" type="button"><i class="fa-solid fa-trash"></i> </button>
+                    </td>
+                </tr>
+    </tbody>
+</table>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
+<script  src="./js/script.js"></script>
